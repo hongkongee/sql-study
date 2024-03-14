@@ -175,7 +175,7 @@ SELECT
     FROM employees
     ORDER BY salary DESC
     ) tbl
-WHERE rn > 10 AND rn <= 20;
+WHERE rn > 10 AND rn <= 20; -- error
 
 /*
 가장 안쪽 SELECT 절에서 필요한 테이블 형식(인라인 뷰)을 생성.
