@@ -57,6 +57,9 @@ index는 조회를 빠르게 하지만, 무작위하게 많은 인덱스를 생�
 -- f10
 
 SELECT * FROM employees
+WHERE salary = 12008;
+
+SELECT * FROM employees
 WHERE employee_id = 158;
 
 -- 인덱스 생성
@@ -81,3 +84,4 @@ DROP INDEX emp_salary_idx;
 5. 테이블이 자주 수정되고, 이미 하나 이상의 인덱스를 가지고 있는 경우에는
  권장하지 않습니다.
 */
+
